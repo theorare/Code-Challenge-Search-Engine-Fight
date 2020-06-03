@@ -22,8 +22,6 @@ Exception Handling
 
 Logging (Only Fatal errors)
 
-NUnit Test framework
-
 Layered application with service layer (logic separation, contract, entities and runtime objects)
 
 Code Analysis and Code Coverage are performed
