@@ -25,3 +25,5 @@ Logging (Only Fatal errors)
 Layered application with service layer (logic separation, contract, entities and runtime objects)
 
 Code Analysis and Code Coverage are performed
+
+Test Framework (Unit Testing - MS Test with Moq)
