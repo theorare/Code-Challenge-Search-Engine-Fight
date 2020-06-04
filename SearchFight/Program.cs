@@ -28,7 +28,8 @@ namespace SearchFight
                 if (args.Length == 0)
                 {
                     Console.WriteLine("Please enter the query to search....");
-                    args = Console.ReadLine()?.Split(' ');
+                    args = Console.ReadLine().Split('"');
+                    args = args.Where(x => x.Length > 0 && !string.IsNullOrWhiteSpace(x)).ToArray();
                 }
 
                 // Search results for each query instance
